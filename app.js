@@ -7,8 +7,6 @@ const glide = e => {
 	const posX = e.layerX;
 	const containerWidth = container.offsetWidth;
 
-	console.log(posX, containerWidth);
-
 	before.style.width = `${posX}px`;
 	slider.style.left = `${posX}px`;
 
