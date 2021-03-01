@@ -34,15 +34,3 @@ img {
 	height: 80vh;
 	object-fit: cover;
 }
-
-.slider {
-	position: absolute;
-	width: 0.5rem;
-	height: 100vh;
-	background: white;
-	top: 0;
-	left: 50%;
-	transform: translate(-50%, 0);
-	pointer-events: none;
-	z-index: 10;
-}
